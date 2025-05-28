@@ -62,31 +62,21 @@ Através da captura de vídeo pela webcam e análise da média de luminosidade d
 
 > 🟩 **Claro** → texto em verde  
 > 🟥 **Escuro** → texto em vermelho  
-
-(Imagens, GIFs ou prints podem ser adicionados aqui quando tiver!)
-
 ---
 
 ## Como Rodar o Projeto
 
 ### 1️⃣ Clone este repositório
 
-```bash
 git clone https://github.com/seuusuario/seurepositorio.git
 cd GSPhysicalComputing
 
 ---
 
 ### 2️⃣ Instale as dependencias
-
-```bash
-
 pip install opencv-python
 
 ---
 
 ### 3️⃣ Execute o programa
-
-'''bash
-
 python detectar_claridade.py

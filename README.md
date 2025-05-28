@@ -17,7 +17,11 @@
 ---
 
 <p align="center">
-  Desenvolvido por <strong> Victoria Franceschini Pizza </strong> 🚀
+  Desenvolvido por <strong> Victoria Franceschini Pizza e Eric de Carvalho Rodrigues </strong> 
+</p>
+
+<p align="center">
+  <strong> RM 550609 | RM 550249 </strong> 
 </p>
 
 <p align="center">

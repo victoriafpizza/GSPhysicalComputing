@@ -1,6 +1,6 @@
 # GS Physical Computing
 
-# Nome do Projeto Arduino 🚀
+# Detector de Claridade 🚀
 
 ![Arduino](https://img.shields.io/badge/Platform-Arduino-blue?style=flat&logo=arduino)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
@@ -11,30 +11,37 @@
 ## 📌 Descrição
 
 Resumo direto do projeto:  
-- O que ele faz?  
-- Qual problema resolve?  
-- Por que é útil ou interessante?  
-
-Exemplo:  
-> Sistema de monitoramento de temperatura e umidade com Arduino e sensor DHT11, exibindo dados em tempo real e registrando para análise.
-
+- Criar um sistema que identifica a condição de luminosidade do ambiente capturada pela webcam. Ele pode ser utilizado em soluções de emergência, monitoramento ou segurança durante falhas de energia.
 ---
 
 ## ⚙️ Componentes Utilizados
 
-- Arduino Uno (ou modelo usado)  
-- Sensor DHT11 (temperatura e umidade)  
-- Display LCD 16x2 (opcional)  
-- Componentes eletrônicos básicos: resistores, jumpers, protoboard etc.
+- Python 3.10+
+- OpenCV.
 
 ---
 
 ## 🔧 Como Usar
 
-1. Monte o circuito conforme o esquema disponível na pasta `esquemas`.  
-2. Faça upload do código Arduino via IDE oficial.  
-3. Utilize o Monitor Serial para acompanhar os dados coletados.
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seuusuario/nome-do-repo.git
+cd nome-do-repo
+
+2. Instale as dependências:
+
+bash
+Copiar
+Editar
+pip install opencv-python
+
+3. Execute o projeto
+
+python detectar_claridade.py
 
 ---
 
-
+## Funcionamento
+- A webcam é ativada e a média da luminosidade da imagem é analisada.
+- O sistema exibe na tela se o ambiente está "Claro" ou "Escuro", com base em um limiar ajustável.

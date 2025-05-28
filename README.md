@@ -68,7 +68,7 @@ Através da captura de vídeo pela webcam e análise da média de luminosidade d
 
 ### 1️⃣ Clone este repositório
 
-git clone https://github.com/seuusuario/seurepositorio.git
+git clone https://github.com/victoriafpizza/GSPhysicalComputing.git
 cd GSPhysicalComputing
 
 ---

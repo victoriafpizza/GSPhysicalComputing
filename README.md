@@ -82,6 +82,9 @@ Este projeto implementa um sistema simples e eficaz para **detecção em tempo r
 
 ---
 
+[![Vídeo de Demonstração](https://img.shields.io/badge/🔗-Assista%20ao%20Vídeo-blue?style=for-the-badge)](LINK_DO_VIDEO_AQUI)
+
+---
 ## Como Rodar o Projeto
 
 ### 1️⃣ Clone este repositório
@@ -98,3 +101,5 @@ pip install opencv-python
 
 ### 3️⃣ Execute o programa
 python detectar_claridade.py
+
+---

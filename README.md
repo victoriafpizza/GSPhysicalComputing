@@ -1,4 +1,4 @@
-# GS Physical Computing
+## Global Solution Physical Computing
 
 # Detector de Claridade 🚀
 

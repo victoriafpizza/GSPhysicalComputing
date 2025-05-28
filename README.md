@@ -49,6 +49,30 @@ Através da captura de vídeo pela webcam e análise da média de luminosidade d
 
 ---
 
+## 🔍 Descrição do Problema
+
+Em situações de queda de energia (apagões), é comum não saber imediatamente se o ambiente está escuro por um problema externo (falta de luz) ou interno (lâmpadas desligadas, sensores fora do ar, etc.). Isso pode ser crítico em ambientes que dependem de iluminação constante, como laboratórios, residências inteligentes ou espaços de trabalho.
+
+Além disso, é importante oferecer uma resposta visual clara que informe rapidamente o estado atual do ambiente — se está iluminado normalmente ou se está em condição de escuridão potencialmente causada por um apagão.
+
+---
+
+## Visão Geral da Solução
+
+Este projeto implementa um sistema simples e eficaz para **detecção em tempo real da claridade do ambiente**, utilizando:
+
+- 📷 **OpenCV** para captura da imagem via webcam
+- 🧠 **MediaPipe** (em versões futuras) para fusão com sensores ou interfaces visuais
+- 📊 **Análise de brilho médio** para classificação binária: `Claro` ou `Escuro`
+
+### ✅ Comportamento:
+
+- Em tempo real, o sistema avalia o **nível de luz** capturado pela webcam.
+- Exibe na tela a mensagem:
+  - 🟢 “Ambiente: Claro” quando a luz está adequada.
+  - 🔴 “Ambiente: Escuro” quando o local está muito escuro (potencialmente um apagão).
+- Permite sair pressionando a tecla `q`.
+
 ## 🎯 Funcionalidades
 
 - ✅ Detecção de luminosidade do ambiente em tempo real
@@ -56,12 +80,6 @@ Através da captura de vídeo pela webcam e análise da média de luminosidade d
 - ✅ Não necessita de sensores externos — usa apenas a câmera
 - ✅ Código leve e fácil de executar
 
----
-
-## 📸 Demonstração
-
-> 🟩 **Claro** → texto em verde  
-> 🟥 **Escuro** → texto em vermelho  
 ---
 
 ## Como Rodar o Projeto

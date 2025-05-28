@@ -8,40 +8,51 @@
 
 ---
 
-## 📌 Descrição
+<h1 align="center">💡 Detector de Claridade com Python + OpenCV</h1>
 
-Resumo direto do projeto:  
-- Criar um sistema que identifica a condição de luminosidade do ambiente capturada pela webcam. Ele pode ser utilizado em soluções de emergência, monitoramento ou segurança durante falhas de energia.
----
-
-## ⚙️ Componentes Utilizados
-
-- Python 3.10+
-- OpenCV.
+<p align="center">
+  🔦 Uma solução simples, eficiente e sem sensores físicos para detectar se o ambiente está <strong>claro</strong> ou <strong>escuro</strong>. Ideal para situações de emergência, automação e monitoramento.
+</p>
 
 ---
 
-## 🔧 Como Usar
+## 🧠 Sobre o Projeto
 
-1. Clone o repositório:
+Este projeto foi desenvolvido como uma proposta de solução para cenários onde a detecção da luminosidade ambiental é crucial, como durante quedas de energia, automações domésticas ou suporte a pessoas com deficiência visual.
+
+Através da captura de vídeo pela webcam e análise da média de luminosidade dos frames, o sistema determina em tempo real se o ambiente está **claro** ou **escuro**.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- 🐍 **Python 3.10+**
+- 🎥 **OpenCV**
+
+---
+
+## 🎯 Funcionalidades
+
+- ✅ Detecção de luminosidade do ambiente em tempo real
+- ✅ Interface simples com exibição do status: **"Claro"** ou **"Escuro"**
+- ✅ Não necessita de sensores externos — usa apenas a câmera
+- ✅ Código leve e fácil de executar
+
+---
+
+## 📸 Demonstração
+
+> 🟩 **Claro** → texto em verde  
+> 🟥 **Escuro** → texto em vermelho  
+
+(Imagens, GIFs ou prints podem ser adicionados aqui quando tiver!)
+
+---
+
+## Como Rodar o Projeto
+
+### 1️⃣ Clone este repositório
 
 ```bash
-git clone https://github.com/seuusuario/nome-do-repo.git
-cd nome-do-repo
-
-2. Instale as dependências:
-
-bash
-Copiar
-Editar
-pip install opencv-python
-
-3. Execute o projeto
-
-python detectar_claridade.py
-
----
-
-## Funcionamento
-- A webcam é ativada e a média da luminosidade da imagem é analisada.
-- O sistema exibe na tela se o ambiente está "Claro" ou "Escuro", com base em um limiar ajustável.
+git clone https://github.com/seuusuario/seurepositorio.git
+cd seurepositorio

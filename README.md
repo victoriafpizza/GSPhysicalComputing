@@ -73,30 +73,20 @@ Através da captura de vídeo pela webcam e análise da média de luminosidade d
 
 ```bash
 git clone https://github.com/seuusuario/seurepositorio.git
-cd seurepositorio
+cd GSPhysicalComputing
 
 ---
 
-<p align="center">
-  Desenvolvido por <strong> Victoria Franceschini Pizza</strong> 🚀
-</p>
+### 2️⃣ Instale as dependencias
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/-MediaPipe-FF6F00?logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Feito%20com%20cafe-6f4e37?logo=buymeacoffee&logoColor=white" />
-</p>
+```bash
 
+pip install opencv-python
 
 ---
 
-<p align="center">
-  Desenvolvido por <strong>Eric de Carvalho Rodrigues </strong> 🚀
-</p>
+### 3️⃣ Execute o programa
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Feito%20com%20Cafe-6f4e37?logo=buymeacoffee&logoColor=white" />
-</p>
+'''bash
+
+python detectar_claridade.py

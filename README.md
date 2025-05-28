@@ -16,6 +16,20 @@
 
 ---
 
+<p align="center">
+  Desenvolvido por <strong> Victoria Franceschini Pizza </strong> 🚀
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/-MediaPipe-FF6F00?logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Feito%20com%20cafe-6f4e37?logo=buymeacoffee&logoColor=white" />
+</p>
+
+
+---
+
 ## 🧠 Sobre o Projeto
 
 Este projeto foi desenvolvido como uma proposta de solução para cenários onde a detecção da luminosidade ambiental é crucial, como durante quedas de energia, automações domésticas ou suporte a pessoas com deficiência visual.
